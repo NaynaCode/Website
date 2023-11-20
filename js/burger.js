@@ -1,7 +1,6 @@
 
 document.getElementById("hamburger-meni").addEventListener("click", function () {
     document.getElementById("nav-lista").classList.toggle("prikazivanje");
-    document.getElementById("hamburger-meni").classList.toggle("aktiviranje");
     toggleCrtice();
 });
 
