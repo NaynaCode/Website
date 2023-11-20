@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(38, 27, 4);
+    color: rgb(241, 238, 233);
+    text-align: left;
+    
+}
+
+.telo {
+    display: flex;
+}
+
+.glavna {
+    width: 100%;
+}
+
+.tekst {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+h1, h4 {
+    text-align: center;
+}
+
+a {
+    color: antiquewhite;
+}
+
+@media all and (max-width: 768px){
+    .telo {
+        display: block;
+    }
+}
