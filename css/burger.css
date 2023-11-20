@@ -60,14 +60,6 @@ body {
     transform: rotate(45deg) translate(-5px, -13px);
 }
 
-.hamburger-meni.aktiviranje .crtica {
-    background-color: transparent;
-}
-
-.hamburger-meni.aktiviranje .crtica {
-    background-color: white;
-}
-
 @media (max-width: 768px) {
     .nav-lista {
         display: none;
