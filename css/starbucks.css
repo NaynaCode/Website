@@ -17,14 +17,6 @@ body {
 }
 
 
-
-#galerija {
-    display: flex;
-}
-.slika {
-width: 33%;
-}
-
 h1, h4 {
     text-align: center;
 }
@@ -33,9 +25,9 @@ a {
     color: antiquewhite;
 }
 
-@media all and (max-width: 768px){
-    #galerija {
-        flex-direction: column;
-        align-items: center;
-    }
+.gal {
+    align-self: center;
+    text-decoration: none;
+    font-size: large;
 }
+
